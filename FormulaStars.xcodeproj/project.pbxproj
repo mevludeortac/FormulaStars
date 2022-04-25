@@ -3,27 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		198DD884C7B1C74110196BCA /* Pods_FormulaStars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4FC6768CF216ACD95DA4DD /* Pods_FormulaStars.framework */; };
 		FC184A022817036D0021B827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC184A012817036D0021B827 /* AppDelegate.swift */; };
 		FC184A042817036D0021B827 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC184A032817036D0021B827 /* SceneDelegate.swift */; };
-		FC184A062817036D0021B827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC184A052817036D0021B827 /* ViewController.swift */; };
 		FC184A092817036D0021B827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC184A072817036D0021B827 /* Main.storyboard */; };
 		FC184A0B281703810021B827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC184A0A281703810021B827 /* Assets.xcassets */; };
 		FC184A0E281703810021B827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC184A0C281703810021B827 /* LaunchScreen.storyboard */; };
+		FC3B31082817057300D4CDDD /* DriverDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B31072817057300D4CDDD /* DriverDetailModel.swift */; };
+		FC3B310B2817058400D4CDDD /* DriverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B310A2817058400D4CDDD /* DriverModel.swift */; };
+		FC3B310E281705A000D4CDDD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B310D281705A000D4CDDD /* HomeController.swift */; };
+		FC3B3111281705B300D4CDDD /* DriversDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3B3110281705B300D4CDDD /* DriversDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		897AD45411FE5070F62BC266 /* Pods-FormulaStars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormulaStars.debug.xcconfig"; path = "Target Support Files/Pods-FormulaStars/Pods-FormulaStars.debug.xcconfig"; sourceTree = "<group>"; };
+		A428F42EECA1FAB562BDAC94 /* Pods-FormulaStars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormulaStars.release.xcconfig"; path = "Target Support Files/Pods-FormulaStars/Pods-FormulaStars.release.xcconfig"; sourceTree = "<group>"; };
+		CA4FC6768CF216ACD95DA4DD /* Pods_FormulaStars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormulaStars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1849FE2817036D0021B827 /* FormulaStars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormulaStars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC184A012817036D0021B827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC184A032817036D0021B827 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC184A052817036D0021B827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC184A082817036D0021B827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC184A0A281703810021B827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC184A0D281703810021B827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC184A0F281703810021B827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3B31072817057300D4CDDD /* DriverDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DriverDetailModel.swift; path = ../../../DriverDetailModel.swift; sourceTree = "<group>"; };
+		FC3B310A2817058400D4CDDD /* DriverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverModel.swift; sourceTree = "<group>"; };
+		FC3B310D281705A000D4CDDD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FC3B3110281705B300D4CDDD /* DriversDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversDetailController.swift; sourceTree = "<group>"; };
+		FC71935C2817095900B9591C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +42,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198DD884C7B1C74110196BCA /* Pods_FormulaStars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C6BA66C9A750AD2FBEBB10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC71935C2817095900B9591C /* SDWebImage.framework */,
+				CA4FC6768CF216ACD95DA4DD /* Pods_FormulaStars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BC13CAA66B188B384255868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				897AD45411FE5070F62BC266 /* Pods-FormulaStars.debug.xcconfig */,
+				A428F42EECA1FAB562BDAC94 /* Pods-FormulaStars.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC17EE2F2817048400B970FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC184A072817036D0021B827 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC17EE312817049200B970FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B31072817057300D4CDDD /* DriverDetailModel.swift */,
+				FC3B310A2817058400D4CDDD /* DriverModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC17EE33281704A000B970FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B310D281705A000D4CDDD /* HomeController.swift */,
+				FC3B3110281705B300D4CDDD /* DriversDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		FC1849F52817036D0021B827 = {
 			isa = PBXGroup;
 			children = (
 				FC184A002817036D0021B827 /* FormulaStars */,
 				FC1849FF2817036D0021B827 /* Products */,
+				6BC13CAA66B188B384255868 /* Pods */,
+				0C6BA66C9A750AD2FBEBB10D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +114,11 @@
 		FC184A002817036D0021B827 /* FormulaStars */ = {
 			isa = PBXGroup;
 			children = (
+				FC17EE33281704A000B970FD /* Controller */,
+				FC17EE312817049200B970FD /* Model */,
+				FC17EE2F2817048400B970FD /* View */,
 				FC184A012817036D0021B827 /* AppDelegate.swift */,
 				FC184A032817036D0021B827 /* SceneDelegate.swift */,
-				FC184A052817036D0021B827 /* ViewController.swift */,
-				FC184A072817036D0021B827 /* Main.storyboard */,
 				FC184A0A281703810021B827 /* Assets.xcassets */,
 				FC184A0C281703810021B827 /* LaunchScreen.storyboard */,
 				FC184A0F281703810021B827 /* Info.plist */,
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC184A12281703810021B827 /* Build configuration list for PBXNativeTarget "FormulaStars" */;
 			buildPhases = (
+				C39913C90C4B909A1C6E4872 /* [CP] Check Pods Manifest.lock */,
 				FC1849FA2817036D0021B827 /* Sources */,
 				FC1849FB2817036D0021B827 /* Frameworks */,
 				FC1849FC2817036D0021B827 /* Resources */,
+				38003BD5757A9BB725CE7DD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +193,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38003BD5757A9BB725CE7DD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FormulaStars/Pods-FormulaStars-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FormulaStars/Pods-FormulaStars-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FormulaStars/Pods-FormulaStars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39913C90C4B909A1C6E4872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormulaStars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC1849FA2817036D0021B827 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC184A062817036D0021B827 /* ViewController.swift in Sources */,
 				FC184A022817036D0021B827 /* AppDelegate.swift in Sources */,
+				FC3B310B2817058400D4CDDD /* DriverModel.swift in Sources */,
+				FC3B3111281705B300D4CDDD /* DriversDetailController.swift in Sources */,
+				FC3B31082817057300D4CDDD /* DriverDetailModel.swift in Sources */,
 				FC184A042817036D0021B827 /* SceneDelegate.swift in Sources */,
+				FC3B310E281705A000D4CDDD /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +389,7 @@
 		};
 		FC184A13281703810021B827 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897AD45411FE5070F62BC266 /* Pods-FormulaStars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +409,7 @@
 		};
 		FC184A14281703810021B827 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A428F42EECA1FAB562BDAC94 /* Pods-FormulaStars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
